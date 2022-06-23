@@ -72,13 +72,15 @@ aside #offer {
 }
 
 .box {
-    width: 320px;
-    height: 150px;
+    width: 310px;
+    height: 200px;
     background-color: yellow;
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 10px;
     margin: 10px;
+    display: flex;
+    align-items: center;
 }
 
 #box1 {
@@ -87,7 +89,7 @@ aside #offer {
 
 .box #left {
     float: left;
-    width: 60%;
+    width: 50%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -97,13 +99,23 @@ aside #offer {
 }
 
 .box #left img {
-    height: 120px;
+    height: 60%;
+}
+
+#box2 #left img {
+    height: 70%;
+}
+
+#box3 #left img {
+    height: 70%;
 }
 
 .box #right {
     float: right;
-    width: 40%;
-    display: block;
+    width: 50%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
 }
 
 .box #right h3 {
@@ -115,6 +127,8 @@ aside #offer {
     font-family: cursive;
     margin-top: 4px;
     margin-bottom: 14px;
+    height: 80px;
+    overflow-y: scroll;
 }
 
 .box #right p b {
@@ -150,3 +164,104 @@ aside #offer {
 
 
 /* ------MAIN------------------------------------------- */
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.list #right {
+    float: right;
+    width: 50%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.list #left {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+}
+
+.list #left img {
+    height: 80%;
+}
+
+.list #right {
+    float: right;
+    width: 70%;
+    padding: 8px;
+}
+
+.list #right h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.list #right p {
+    font-family: cursive;
+    margin-top: 4px;
+    margin-bottom: 14px;
+}
+
+.list #right p b {
+    color: black;
+    font-weight: 700;
+}
+
+.list #right a {
+    padding: 8px;
+    background-color: #ededed;
+    border: none;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    font-family: 'Roboto', sans-serif;
+    /* margin-left: 23px; */
+    font-weight: 800;
+    text-align: right;
+    width: 100%;
+}
+
+.list {
+    width: 310px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid #ededed;
+}
+
+.list #left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
