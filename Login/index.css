@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #fff;
+}
+
+body {
+    background-color: white;
+}
+
+
+/* ----HEADER---------------------------------------------- */
+
+header #top {
+    height: 140px;
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #535353;
+}
+
+header #login {
+    height: 20px;
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+
+/* ------MAIN------------------------------------------- */
+
+main form {
+    height: max-content;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+main .inputs label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #8f8e8e;
+}
+
+main form .inputs {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+main form .inputs input {
+    width: 280px;
+    padding: 10px;
+    outline: none;
+    border: 1.5px solid #ededed;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+main form .inputs button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    width: 150px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #535353;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
