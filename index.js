@@ -27,6 +27,9 @@ function submitform(e) {
     saveMessage(name, email, password, dateofBirth, phonenumber);
 
     console.log(firstname, password, email, dateofBirth, phonenumber);
+    alert(
+        "Your all data is valid and information is getting stored in firebase database"
+    );
 }
 
 const saveMessage = (firstname, password, email, date, number) => {
